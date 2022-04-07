@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    background-color:rgb(12, 5, 117);
+}
+.conatiner-fluid{
+    margin-left: 12px;
+}
+.form-container{
+   
+    padding: 30px 50px;
+    background-color: rgb(121, 128, 228);
+    margin-top: 30%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.5);
+}
+#hed1{
+    color: white;
+    margin-bottom: 20px;
+    font-family: monospace; 
+    font-weight: bold;
+}
+#usname{
+    margin-top: 40px;
+    margin-bottom:40px ;
+   
+}
+#msg{
+    color: rgb(87, 6, 6);
+    font-size: normal;
+    font-weight: 50px;
+}
+#lonbtn{
+    width: 100%;
+    background-color: rgb(22, 22, 197);
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.2);
+}
+#lonbtn:hover{
+    background-color: darkblue;
+    
+}
+  .form-control{ 
+    padding-left:24%;  
+   
+} 
+.mb-3 i{
+    position: absolute;
+   margin: 10px;
+   font-size: 22px;
+  padding: 0;   
+}
+
+i.fa-user{
+    margin-top: 10px;
+}
+i.fa-lock{
+    margin-top: -27px;
+}
+
+
+
